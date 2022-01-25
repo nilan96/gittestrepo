@@ -18,4 +18,14 @@ div#slider figure {
   text-align: left;
   font-size: 0;
   animation: 20s slideshow infinite; 
+
+  @keyframes slideshow {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    40% { left: -100%; }
+    55% { left: -100%; }
+    70% { left: -200%; }
+    85% { left: -200%; }
+    100% { left: -300%; }
+}
 }
